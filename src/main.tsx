@@ -14,7 +14,7 @@ export const anon_context: LDContext = {
 };
 
 const LDProvider = withLDProvider({
-  clientSideID: '6850965d6adb64093cc77b5e',
+  clientSideID: import.meta.env.VITE_LD_CLIENT_ID,
   context: anon_context,
   options: {
     plugins: [
